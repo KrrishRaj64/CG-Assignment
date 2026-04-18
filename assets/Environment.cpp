@@ -250,39 +250,38 @@ struct StoryBeat {
 
 static const StoryBeat kStoryBeats[] = {
     // Scene 1
-    {1,  1.0f,  6.0f, "Charlie chaplin is walking down the street,", 50.0f, 400.0f, 300},
-    {1,  7.0f, 12.0f, "and then he notices a \"machine\",", 50.0f, 400.0f, 300},
-    {1, 13.0f, 18.0f, "with a shocked expression he walks to the machine and inspects it,", 500.0f, 400.0f, 300},
-    {1, 19.0f, 25.0f, "with suprise and curiosity written all over his face", 50.0f, 100.0f, 300},
-    {1, 27.0f, 35.0f, "And he, as you can clearly see, AWESTRUCK by the distinct yet creative appearance of this 'machine' or so it is?", 500.0f, 400.0f, 320},
-    {1, 37.0f, 44.0f, "Then as any gentleman would, he bows down to the machine,", 50.0f, 350.0f, 300},
-    {1, 46.0f, 55.0f, "the machine doesn't bow down or respond back, this makes him very furious", 500.0f, 100.0f, 300},
+    {1,  1.0f,  6.0f, "Charlie chaplin is walking down the street", 50.0f, 400.0f, 300},
+    {1,  7.0f, 12.0f, "And then he notices a \"machine\"", 50.0f, 400.0f, 300},
+    {1, 13.0f, 18.0f, "With a shocked expression he walks to the machine and inspects it", 500.0f, 400.0f, 300},
+    {1, 19.0f, 25.0f, "With suprise and curiosity written all over his face", 50.0f, 100.0f, 300},
+    {1, 35.0f, 50.0f, "And he, as you can clearly see, is AWESTRUCK by the distinct yet creative appearance of this 'machine'", 500.0f, 400.0f, 320},
+    {1, 50.0f, 55.0f, "Then as any gentleman would, he bows down to the machine", 50.0f, 350.0f, 300},
+    {1, 55.0f, 60.0f, "The machine doesn't bow down, this makes him very furious", 500.0f, 100.0f, 300},
 
     // Scene 2
-    {2,  2.0f,  8.0f, "his whole body starts shaking, wait wait- that's not charlie chaplin, let's make him curious again", 500.0f, 400.0f, 350},
-    {2, 10.0f, 18.0f, "and as he curiously explores the machine, he suddenly looks left, wait he's noticed something else?", 50.0f, 400.0f, 350},
-    {2, 25.0f, 35.0f, "Wait what- why is he looking at us, the code must be broken, skip to next scene-", 500.0f, 100.0f, 350},
+    {2,  2.0f,  15.0f, "His whole body starts shaking, wait wait- that's not charlie chaplin- let's make him curious again", 500.0f, 400.0f, 350},
+    {2, 26.0f, 34.0f, "and as he curiously explores the machine, he suddenly looks left, wait he's noticed something else?", 50.0f, 400.0f, 350},
+    {2, 35.0f, 40.0f, "Wait what- why is he looking at us, skip to next scene-", 500.0f, 100.0f, 350},
+    {2, 40.0f,  48.0f, "-notices the lever and tries to pull it but takes some fiddling to get it to work", 50.0f, 400.0f, 350},
+    {2, 49.0f, 60.0f, "AND WOAHH, THE MACHINE IS ALIVEE", 500.0f, 450.0f, 300},
 
     // Scene 3
-    {3,  2.0f,  8.0f, "-notices the lever and tries to pull it but takes some fiddling to get it to work", 50.0f, 400.0f, 350},
-    {3, 10.0f, 15.0f, "AND WOAHH, THE MACHINE IS ALIVEE", 500.0f, 450.0f, 300},
-    {3, 18.0f, 25.0f, "BUT IT'S ANGRYY AT CHARLIE FOR WAKING IT UP", 50.0f, 100.0f, 350},
-    {3, 60.0f, 68.0f, "Charlie is at his last legs as the machine grows angrier and then oh no-", 500.0f, 400.0f, 350},
-    {3, 70.0f, 80.0f, "I BELEIVE I CAN FLYYYYYY, I BELIEVE I CAN TOUCH THE SKYY, I THINK ABT IT EVERY NIGHT AND DAY, SPREAD MY WINGS-", 50.0f, 450.0f, 350},
-    {3, 82.0f, 88.0f, "-become a chicken? Ok the code is seriously broken, skip to next scene", 500.0f, 100.0f, 350},
+    {4, 03.0f, 06.0f, "I BELEIVE I CAN FLYYYYYY, I BELIEVE I CAN TOUCH THE SKYY, I THINK ABT IT EVERY NIGHT AND DAY, SPREAD MY WINGS-", 50.0f, 450.0f, 350},
+    {4, 06.0f, 10.0f, "-become a chicken? Skip to next scene-", 500.0f, 100.0f, 350},
+    {4, 10.0f, 20.0f, "-ster is even more angry, who will save us from the monster??", 50.0f, 400.0f, 350},
+    {4, 20.0f, 30.0f, "And charlie is back to normal? Anyways Charlie is running towards the lever with all his might and energy", 500.0f, 450.0f, 350},
 
     // Scene 4
-    {4,  2.0f,  8.0f, "-ster is even more angry, who will save us from the monster??", 50.0f, 400.0f, 350},
-    {4, 12.0f, 20.0f, "And charlie is back to normal? Anyways Charlie is running towards the lever with all his might and energy", 500.0f, 450.0f, 350},
-    {4, 25.0f, 30.0f, "And sucessfully turns off the lever", 50.0f, 100.0f, 350},
-    {4, 32.0f, 38.0f, "As the machine wails it's arms for the last time", 500.0f, 400.0f, 350},
-    {4, 40.0f, 45.0f, "the machine finally turns off", 50.0f, 450.0f, 300},
+    {4, 30.0f, 35.0f, "And sucessfully turns off the lever", 50.0f, 100.0f, 350},
+    {4, 35.0f, 40.0f, "As the machine wails it's arms for the last time", 500.0f, 400.0f, 350},
+    // {4, 20.0f, 45.0f, "the machine finally turns off", 50.0f, 450.0f, 300},
+    {4, 50.0f, 55.0f, "the machine finally turns off", 50.0f, 450.0f, 300},
+    {4,  55.0f,  60.0f, "But something seems off to Charlie", 50.0f, 400.0f, 300},
 
     // Scene 5
-    {5,  2.0f,  6.0f, "But something seems off to Charlie", 50.0f, 400.0f, 300},
-    {5,  8.0f, 12.0f, "Charlie is shocked and couldn't react in time as the machine exploded-", 500.0f, 450.0f, 350},
-    {5, 14.0f, 18.0f, "Wow Charlie Chaplin's hat came back like a frisbee", 50.0f, 100.0f, 350},
-    {5, 19.0f, 23.0f, "Then charlie sees the bottom of the machine open, it surrenders? Or permanently broken? We'll never know", 500.0f, 400.0f, 350},
+    {5, 0.0f, 15.0f, "Charlie is shocked and couldn't react in time as the machine exploded-", 500.0f, 450.0f, 350},
+    {5, 16.0f, 20.0f, "Wow Charlie Chaplin's hat came back like a frisbee", 50.0f, 100.0f, 350},
+    {5, 20.0f, 23.0f, "Then charlie sees the bottom of the machine open, it surrenders? Or permanently broken? We'll never know", 500.0f, 400.0f, 350},
     {5, 24.0f, 28.0f, "What a wonderful story of Charlie Chaplin with '0 visual errors', nothing more can go wrong-", 50.0f, 450.0f, 350},
     {5, 28.5f, 30.0f, "Oops- ok that's now how Charlie should trip, need to fix that code too-", 500.0f, 100.0f, 350},
 };
